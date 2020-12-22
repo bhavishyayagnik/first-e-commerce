@@ -5,7 +5,7 @@
 }
 body
 {
-  background-color: #f1f3f4;
+  background-color: #05386B;
   font-family: sans-serif;
 }
 .top-nav-bar
@@ -15,9 +15,9 @@ body
   position: sticky;
 background: #fff;
 margin-bottom: 20px;
-border-bottom: 3px solid orange;
+border-bottom: 3px solid #05386B;
 z-index: 2;
-margin-left: 5px;
+margin-left: 12px;
 }
 .logo
 {
@@ -31,7 +31,7 @@ margin-left: 5px;
 {
   margin-top:15px;
   margin-left: 30px;
-  border: 1px solid orange !important;
+  border: 1px solid #05386B !important;
   border-top-left-radius: 20px !important;
   border-bottom-left-radius: 20px !important;
   border-top-right-radius: 0 !important;
@@ -40,8 +40,8 @@ margin-left: 5px;
 }
 .input-group-text
 {
-  background: orange !important;
-  border: 1px solid orange !important;
+  background: #05386B !important;
+  border: 1px solid #05386B !important;
   margin: 15px 10px 3px 0 !important;
   border-top-left-radius: 0px !important;
   border-bottom-left-radius: 0px !important;
@@ -74,10 +74,10 @@ margin-left: 0px;
   float: right;
 }
 .menu-bar ul li{
-  border-left:1px solid #fff;
+  border-left:1px solid #05386B;
   list-style-type:none;
   padding:15px 35px;
-  background-color: orange;
+  background-color: #05386B;
   cursor:pointer;
 }
 .menu-bar ul li a{
@@ -136,7 +136,7 @@ margin-left: 0px;
 }
 
 .side-menu ul li:hover{
-  color:orange;
+  color:#5CDB95;
 }
 
 .side-menu ul li ul{
@@ -165,7 +165,7 @@ margin-left: 0px;
 {
   font-size: 30px;
   margin:10px;
-  color: orange;
+  color: #05386B;
   display: none;
 }
 @media only screen and (max-width: 980px)
@@ -232,7 +232,7 @@ margin-left: 0px;
 }
 /*------------------on sale product css-----------*/
 .title-box{
-  background: orange;
+  background: #379683;
   color: #fff;
   width: 180px;
   padding:4px 10px;
@@ -249,7 +249,7 @@ margin-left: 0px;
 .title-box::after
 {
   content:'';
-  border-top: 40px solid orange;
+  border-top: 40px solid #379683;
   border-right: 50px solid transparent;
   position: absolute;
   display: flex;
@@ -439,7 +439,7 @@ transition:0.5s;
   width: 30px;
 }
 .real .btn-primary{
-  background: orange !important;
+  background: #379683 !important;
   color: #fff;
   font-size: 15px;
   margin-left: 20px;
