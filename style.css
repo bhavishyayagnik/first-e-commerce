@@ -456,3 +456,20 @@ transition:0.5s;
 .product-description hr{
   margin-bottom: 50px;
 }
+@media only screen and (max-width: 980px)
+{
+  .slide1{
+    width: 100%;
+    margin-left: 0;
+  }
+}
+.col-md-4{
+  margin-right:80px;
+
+@media only screen and (max-width: 980px)
+{
+  .slide2{
+    width: 100%;
+    margin-left: 0;
+  }
+}
